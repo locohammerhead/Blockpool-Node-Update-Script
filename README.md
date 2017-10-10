@@ -2,7 +2,7 @@
 For updating delegate node software.
 To run the script from outside of the BPL-node directory.  Make sure forever is installed!
 
-sudo npm install forever -g
+npm install forever -g
 
 git pull https://github.com/blockpool-io/Blockpool-Node-Update-Script.git
 
