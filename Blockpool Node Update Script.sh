@@ -1,3 +1,4 @@
+npm install forever -g
 forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
 cd BPL-node
 cp config.mainnet.json config1.mainnet.json
