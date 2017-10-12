@@ -1,15 +1,19 @@
 # Blockpool-Node-Update-Script
-For updating delegate node software.
+For updating delegate node software for the port switch at block
 
-Make script executable chmod +x
 To run the script from outside of the BPL-node directory.  Make sure forever is installed!
 ```
 npm install forever -g
 ```
 
 ```
-git pull https://github.com/blockpool-io/Blockpool-Node-Update-Script.git
+wget https://raw.githubusercontent.com/blockpool-io/Blockpool-Node-Update-Script/master/Blockpool_Node_Update_Script.sh
 ```
+
+```
+chomd +x Blockpool_Node_update_Script.sh
+```
+
 
 ```
 ./Blockpool_Node_Update_Script.sh
