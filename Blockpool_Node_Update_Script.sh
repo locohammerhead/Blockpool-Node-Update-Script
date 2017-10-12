@@ -1,5 +1,8 @@
 #!/bin/bash
 
+##make sure forever is installed
+npm install forever -g
+
 ##kill the node
 forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
 
