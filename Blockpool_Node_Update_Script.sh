@@ -1,7 +1,7 @@
 #kill the node
 pkill -9 node
 forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
-cd BPL-node
+cd ~/BPL-node
 #create backup of the config file
 mv config.mainnet.json config.mainnet.backup.json
 #checkout the config file
