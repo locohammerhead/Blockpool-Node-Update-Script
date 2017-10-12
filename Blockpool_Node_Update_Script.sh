@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ##kill the node
 forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
