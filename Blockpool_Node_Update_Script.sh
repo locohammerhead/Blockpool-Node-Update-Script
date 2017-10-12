@@ -4,7 +4,7 @@
 npm install forever -g
 
 ##change to BPL dir
-pushd BPL-node
+pushd $HOME/BPL-node
 
 ##kill the node
 forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
