@@ -3,11 +3,11 @@
 ##make sure forever is installed
 npm install forever -g
 
-##kill the node
-forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
-
 ##change to BPL dir
 pushd BPL-node
+
+##kill the node
+forever stop app.js -c config.mainnet.json -g genesisBlock.mainnet.json
 
 ##create backup of the config file
 cp config.mainnet.json config.mainnet.backup.json
