@@ -1,5 +1,7 @@
 # Blockpool-Node-Update-Script
 For updating delegate node software.
+
+Make script executable chmod +x
 To run the script from outside of the BPL-node directory.  Make sure forever is installed!
 
 npm install forever -g
