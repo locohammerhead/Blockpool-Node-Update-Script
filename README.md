@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/blockpool-io/Blockpool-Node-Update-Script
 
 Make it executable:
 ```
-chmod +x Blockpool_Node_Ppdate_Script.sh
+chmod +x Blockpool_Node_Update_Script.sh
 ```
 
 Run:
