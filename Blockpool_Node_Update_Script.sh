@@ -12,4 +12,4 @@ mv config.mainnet.backup.json config.mainnet.json
 #install forever dependency
 npm install forever -g
 #run node
-forever start app.js -c config.mainnet.json -g genesisBlock.mainnet.json
+
