@@ -1,7 +1,9 @@
 # Blockpool-Node-Update-Script
-For updating delegate node software for the port switch at block
+For updating delegate node software for the port switch at block. This script will install forever if it is not already installed.
 
-To run the script from outside of the BPL-node directory.  Make sure forever is installed!
+To run the script from outside of the BPL-node directory. 
+
+
 Download the script:
 
 ```
