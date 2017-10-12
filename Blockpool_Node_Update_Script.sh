@@ -7,7 +7,7 @@ cp config.mainnet.json config.mainnet.backup.json
 #checkout the config file
 git checkout config.mainnet.json
 #pull fresh code
-git pull origin mainnet
+git pull origin bpl-mainnet
 cp config.mainnet.backup.json config.mainnet.json
 #install forever dependency
 npm install forever -g
